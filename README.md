@@ -3,10 +3,13 @@
 
 # Coding Test
 
+### 코드 페이지
 
 ![BAEKJOON](https://img.shields.io/badge/Baekjoon-3070B4.svg?&style=for-the-badge&logo=DevBox&logoColor=white)
 ![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 ![Programemrs](https://img.shields.io/badge/Programmers-000000?style=for-the-badge&logo=fauna&logoColor=white)
+
+### 기술 스택
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
