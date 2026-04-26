@@ -1,3 +1,9 @@
+
+<div align="center">
+
+# Coding Test
+
+
 ![BAEKJOON](https://img.shields.io/badge/Baekjoon-3070B4.svg?&style=for-the-badge&logo=DevBox&logoColor=white)
 ![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 ![Programemrs](https://img.shields.io/badge/Programmers-000000?style=for-the-badge&logo=fauna&logoColor=white)
@@ -9,5 +15,4 @@
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-# 코딩테스트 레포지토리
-코딩테스트를 위한 레포지토리 입니다. 차차 보완/추가해 나갈 예정입니다.
+</div>
