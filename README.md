@@ -3,14 +3,14 @@
 
 # Coding Test
 
-### 코드 페이지
+### 코딩테스트 페이지
 
 [![baekjoon][baekjoon-shield]][baekjoon-url]
 [![LeetCode][leetcode-shield]][leetcode-url]
 [![Programemrs][programmers-shield]][programmers-url]
 
 
-### 기술 스택
+### 사용 언어
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
