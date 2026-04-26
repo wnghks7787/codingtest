@@ -5,9 +5,10 @@
 
 ### 코드 페이지
 
-![BAEKJOON](https://img.shields.io/badge/Baekjoon-3070B4.svg?&style=for-the-badge&logo=DevBox&logoColor=white)
-![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
-![Programemrs](https://img.shields.io/badge/Programmers-000000?style=for-the-badge&logo=fauna&logoColor=white)
+[![baekjoon][baekjoon-shield]][baekjoon-url]
+[![LeetCode][leetcode-shield]][leetcode-url]
+[![Programemrs][programmers-shield]][programmers-url]
+
 
 ### 기술 스택
 
@@ -19,3 +20,13 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 </div>
+
+
+[leetcode-shield]: https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06
+[leetcode-url]: https://leetcode.com/u/wnghks7787/
+
+[baekjoon-shield]: https://img.shields.io/badge/Baekjoon-3070B4.svg?&style=for-the-badge&logo=DevBox&logoColor=white
+[baekjoon-url]: https://www.acmicpc.net/user/wnghks7787
+
+[programmers-shield]: https://img.shields.io/badge/Programmers-ffffff?style=for-the-badge&logo=fauna&logoColor=000521
+[programmers-url]: https://programmers.co.kr
