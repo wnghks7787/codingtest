@@ -1,10 +1,10 @@
-# 코드트리 1_1_1_4
+# 코드트리 1_1_1_5
 ## 제목: 2줄 출력
 ## 입력
 입력 없음
 
 ## 출력
-He says "It's a really simple sentence". 출력
+3 출력
 
 
 ## 입출력 예시
@@ -15,8 +15,7 @@ He says "It's a really simple sentence". 출력
 
 #### 출력
 ```
-Hello
-World
+3
 ```
 
 ## 제한사항
