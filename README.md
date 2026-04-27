@@ -8,7 +8,7 @@
 [![baekjoon][baekjoon-shield]][baekjoon-url]
 [![LeetCode][leetcode-shield]][leetcode-url]
 [![Programemrs][programmers-shield]][programmers-url]
-
+[![CodeTree][codetree-shield]][codetree-url]
 
 ### 사용 언어
 
@@ -30,3 +30,6 @@
 
 [programmers-shield]: https://img.shields.io/badge/Programmers-ffffff?style=for-the-badge&logo=fauna&logoColor=000521
 [programmers-url]: https://programmers.co.kr
+
+[codetree-shield]: https://img.shields.io/badge/codetree-5fb86f?style=for-the-badge&logo=vercel&logoColor=white
+[codetree-url]: https://www.codetree.ai/ko/trail-info
