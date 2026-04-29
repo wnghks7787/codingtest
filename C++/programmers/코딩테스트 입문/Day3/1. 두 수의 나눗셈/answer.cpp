@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
+#include <string>
+#include <vector>
+
+using namespace std;
 
 int solution(int num1, int num2) {
     int answer = -1;
