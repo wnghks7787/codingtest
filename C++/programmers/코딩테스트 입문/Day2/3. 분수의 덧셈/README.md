@@ -37,5 +37,6 @@ denom2 = 3
 [29, 6]
 ```
 
+## 제한사항
 - 0 < numer1, denom1, numer2, denom2 <= 1000
 - 사용 언어: C++

@@ -27,6 +27,7 @@ numbers의 원소의 평균값을 return하도록 solution 함수를 완성해�
 94.0
 ```
 
+## 제한사항
 - 0 <= numbers의 원소 <= 1000
 - 1 <= numbers의 길이 <= 100
 - 사용 언어: C++
