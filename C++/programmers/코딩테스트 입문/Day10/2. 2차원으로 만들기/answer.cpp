@@ -3,28 +3,18 @@
 
 using namespace std;
 
-int solution(vector<int> dot) {
-    int answer = 0;
-    if(dot[0] > 0)
+vector<vector<int>> solution(vector<int> num_list, int n) {
+    vector<vector<int>> answer;
+    int count = 0;
+    vector<int> current_vec(n);
+    for(int i = 0 ; i < num_list.size() ; i++)
     {
-        if(dot[1] > 0)
+        current_vec[count] = num_list[i];
+        count++;
+        if(count == n)
         {
-            answer = 1;
-        }
-        else
-        {
-            answer = 4;
-        }
-    }
-    else
-    {
-        if(dot[1] > 0)
-        {
-            answer = 2;
-        }
-        else
-        {
-            answer = 3;
+            count = 0;
+            answer.push_back(current_vec);
         }
     }
     return answer;
