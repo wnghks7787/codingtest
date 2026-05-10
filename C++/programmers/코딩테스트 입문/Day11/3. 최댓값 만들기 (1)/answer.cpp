@@ -1,14 +1,14 @@
 #include <string>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
-int solution(vector<int> box, int n) {
-    int answer = 1;
+int solution(vector<int> numbers) {
+    int answer = 0;
     
-    for(int i = 0 ; i < box.size() ; i++)
-    {
-        answer *= (box[i] / n);
-    }
+    sort(numbers.rbegin(), numbers.rend());
+    
+    answer = numbers[0] * numbers[1];
     return answer;
 }
