@@ -1,68 +1,49 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
+
+#define PERSON 'P'
+#define HAMBURGER 'H'
+#define EMPTY 'E'
 
 int main()
 {
-    std::vector<std::pair<int, int> > weight;
-    int stuff;
+    int N, k;
+    std::string hamburger_people;
+
     int answer = 0;
-    int current_weight = 4;
-    std::pair<int, int> tmp_pair;
 
-    bool flag = true;
+    std:: cin >> N >> k;
+    std:: cin >> hamburger_people;
 
-    // input
-    for(int i = 0 ; i < 5 ; i++)
+    for(int i = 0 ; i < N ; i++)
     {
-        int tmp;
-        std::cin >> tmp;
-        
-        tmp_pair.first = pow(2, i);
-        tmp_pair.second = tmp;
-        weight.push_back(tmp_pair);
-    }
-    std::cin >> stuff;
+        int hand = i - k;
 
-    while(true)
-    {
-        // fail
-        if(current_weight < 0)
+        if(hamburger_people[i] == PERSON)
         {
-            flag = false;
-            printf("impossible\n");
-            break;
-        }
-        // success
-        if(weight[current_weight].second <= 0)
-        {
-            current_weight--;
-            continue;
-        }
+            for( ; hand <= i + k ; hand++)
+            {
+                // exit condition
+                if(hand < 0)
+                {
+                    continue;
+                }
+                if(hand >= N)
+                {
+                    break;
+                }
+                
+                if(hamburger_people[hand] == HAMBURGER)
+                {
+                    hamburger_people[hand] = EMPTY;
+                    answer++;
+                    break;
+                }
 
-        if(weight[current_weight].first <= stuff)
-        {
-            stuff -= weight[current_weight].first;
-            weight[current_weight].second--;
-            answer++;
-        }
-        else
-        {
-            current_weight--;
-        }
-
-        // success
-        if(stuff == 0)
-        {
-            break;
+            }
         }
     }
 
-    if(flag && answer != 0)
-    {
-        std::cout << answer << std::endl;
-    }
+    std::cout << answer << std::endl;
 
     return 0;
 }
