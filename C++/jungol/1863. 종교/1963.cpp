@@ -2,7 +2,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <stack>
 
 #define WHITE 0
 #define GRAY 1
